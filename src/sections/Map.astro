@@ -2,12 +2,12 @@
 import LeafletMap from "@/components/LeafletMap.astro"
 ---
 
-<section id="mapa">
-  <LeafletMap 
-    latitude={40.45673263671421} 
-    longitude={-3.990346247363024} 
-    zoom={15} 
-    container="map-container" 
+<section class="max-w-5xl mx-auto rounded-2xl overflow-hidden" id="mapa">
+  <LeafletMap
+    latitude={40.45673263671421}
+    longitude={-3.990346247363024}
+    zoom={15}
+    container="map-container"
     tileLayer="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
     attribution="&copy; OpenStreetMap &copy; CARTO"
   />
